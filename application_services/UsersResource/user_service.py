@@ -18,6 +18,6 @@ class UserResource(BaseRDBApplicationResource):
 
     @classmethod
     def get_by_template(cls, template):
-        res = RDBService.find_by_template("CLOUD_USERS_INFO", "users", template,"everything")
+        res = RDBService.find_by_template("hw1_db", "user", template,"everything")
         print("THIS IS RES",res)
         return res
