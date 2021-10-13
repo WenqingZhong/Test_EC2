@@ -32,7 +32,7 @@ class RDBService:
             host='database-1.cqcjuhcd4k1s.us-east-2.rds.amazonaws.com',
             user='admin',
             password='Abc!1234567890',
-            database = 'hw1_db'
+            database = ''
         )
         return db_connection
 
